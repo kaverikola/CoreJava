@@ -1,7 +1,7 @@
 package Inheritanceprogrms;
 
 import java.util.Scanner;
-class Square{
+class Square1{
 	int a;
 	Scanner sc=new Scanner(System.in);
 	void input() {
@@ -12,7 +12,7 @@ class Square{
 		System.out.println("squar="+(a*a));
 	}
 }
-class Addition extends Square{
+class Addition1 extends Square1{
 	int b;
 	void accept() {
 		System.out.println("enter b value..");
@@ -26,7 +26,7 @@ class Addition extends Square{
 public class Inheritance2 {
 
 	public static void main(String[] args) {
-		Addition aa=new Addition();
+		Addition1 aa=new Addition1();
 		aa.input();
 		aa.sqr();
 		aa.accept();
