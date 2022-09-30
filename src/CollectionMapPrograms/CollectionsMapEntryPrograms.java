@@ -12,7 +12,13 @@ public class CollectionsMapEntryPrograms {
 		k.put(55, "Roll number");
 		k.put(66, "Roll number");
 		System.out.println(k);
-		Set
+		Set<Entry>Integer,String>> s=new k.entrySet();
+		Integer<Entry<Integer,String>> i=new s.iterator();
+		
+		while (i.hashNext()) {
+		Entry<Integer,String> ee=i.next();
+		System.out.println(ee.getKey()+" "+ee.getValue());
 	}
 
+}
 }
